@@ -1,0 +1,7 @@
+name: ai_house_env
+
+dependencies:
+  - python=3.9
+  - pip==21.1.2
+  - pip:
+    - -r requirements_gpu.txt
