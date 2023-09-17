@@ -59,11 +59,10 @@ jupyter lab --port 7766
 
 # Data
 
-- For Week 2 and 3 we will use Kaggle datasets. [Prepare in advance](#how-to-use-kaggle-datasets)
-    - Fake and real news dataset API command: `kaggle datasets download -d clmentbisaillon/fake-and-real-news-dataset`
-    - Toxic Comment Classification Challenge API command: `kaggle competitions download -c jigsaw-toxic-comment-classification-challenge`
-    - Our propaganda detection dataset - `kaggle datasets download -d vladimirsydor/propaganda-detection-our-data`
-    - Unsupervised ru propaganda dataset 01-02-2022 till 30-01-2023 - `kaggle datasets download -d vladimirsydor/ru-propaganda-2022-year`
+- For most of lectures you will need datasets from Kaggle. [Prepare in advance](#how-to-use-kaggle-datasets)
+    - CommonLit - Evaluate Student Summaries dataset API command: `kaggle competitions download -c commonlit-evaluate-student-summaries`
+    - Kaggle - LLM Science Exam dataset API command: `kaggle competitions download -c kaggle-llm-science-exam`
+    - Feedback Prize - Predicting Effective Arguments dataset API command: `kaggle competitions download -c feedback-prize-effectiveness`
 
 ## How to use Kaggle datasets
 
