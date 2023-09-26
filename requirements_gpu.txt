@@ -26,3 +26,6 @@ kaggle==1.5.12
 spacy==3.5.0
 eli5==0.13.0
 torchtext==0.14.1
+ydata-profiling==4.5.1
+ipywidgets==7.7.2
+jupyterlab-widgets==1.1.1

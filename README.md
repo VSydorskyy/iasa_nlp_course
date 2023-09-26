@@ -28,9 +28,9 @@ jupyter lab --port 7766
 
 # Content 
 
-1. [ ] Структура та структурні елементи постановки ML задачі. Формалізація бізнес задач. Основні задачі й методи в сфері Обробки природних мов - Volodymyr 
+1. [x] Структура та структурні елементи постановки ML задачі. Формалізація бізнес задач. Основні задачі й методи в сфері Обробки природних мов - Volodymyr 
 2. [ ] Представлення природніх мов в машинному вигляді. Класичні та нейронні алгоритми векторизації. Класичні ML підходи в NLP(Take from 4th Lecture). - Vladyslav 
-3. [ ] Основні метрики в NLP (обробка природніх мов). Побудова оцінки підходів і моделей в NLP - валідація. - Anton
+3. [x] Основні метрики в NLP (обробка природніх мов). Побудова оцінки підходів і моделей в NLP - валідація. - Anton
 4. [ ] Підходи з використанням архітектур RNN/GRU/LSTM. - Volodymyr
 5. [ ] Підходи з використанням архітектури Transformer. - Anton  
 6. [ ] Генеративні задачі: машинний переклад, умовна та безумовна текстова генерація, розгляд GPT архітектури - Vladyslav
@@ -61,8 +61,17 @@ jupyter lab --port 7766
 
 - For most of lectures you will need datasets from Kaggle. [Prepare in advance](#how-to-use-kaggle-datasets)
     - CommonLit - Evaluate Student Summaries dataset API command: `kaggle competitions download -c commonlit-evaluate-student-summaries`
-    - Kaggle - LLM Science Exam dataset API command: `kaggle competitions download -c kaggle-llm-science-exam`
-    - Feedback Prize - Predicting Effective Arguments dataset API command: `kaggle competitions download -c feedback-prize-effectiveness`
+    - Natural Language Processing with Disaster Tweets dataset API command: `kaggle competitions download -c nlp-getting-started`
+- We recommend to create `data` folder and put all datasets there. So you might have next structure
+
+```
+data/
+    nlp_getting_started/
+        train.csv
+        test.csv
+        ...
+    ...
+```
 
 ## How to use Kaggle datasets
 
