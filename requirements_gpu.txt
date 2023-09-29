@@ -18,7 +18,7 @@ html5lib==1.1
 jupyterlab==3.4.2
 iso8601==1.1.0
 rfc3339==6.2
-wordcloud==1.8.2.2
+wordcloud==1.9.2
 datasets==2.8.0
 pyLDAvis==3.3.1
 bertopic==0.13.0
