@@ -75,7 +75,6 @@ data/
 
 ## How to use Kaggle datasets
 
-1. Create Kaggle account 
 1. Create [Kaggle](https://www.kaggle.com/) account
 2. Proceed [with Installation & Authentication](https://www.kaggle.com/docs/api#getting-started-installation-&-authentication)
 3. Download dataset with API command 
