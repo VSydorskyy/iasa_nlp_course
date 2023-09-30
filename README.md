@@ -82,4 +82,5 @@ data/
 
 1. Create [Kaggle](https://www.kaggle.com/) account
 2. Proceed [with Installation & Authentication](https://www.kaggle.com/docs/api#getting-started-installation-&-authentication)
-3. Download dataset with API command 
+3. Don't forget to join a competition and accept its rules on a Kaggle website.
+4. Download dataset with API command 
