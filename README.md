@@ -21,6 +21,11 @@ conda env create -f environment.yaml
 
 # Start Jupyter
 
+Activate your newly created environment
+```bash
+conda activate iasa_nlp_env
+```
+
 You may use any port 
 ```bash
 jupyter lab --port 7766
