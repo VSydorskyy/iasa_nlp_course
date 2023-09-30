@@ -67,7 +67,7 @@ jupyter lab --port 7766
 - For most of lectures you will need datasets from Kaggle. [Prepare in advance](#how-to-use-kaggle-datasets)
     - CommonLit - Evaluate Student Summaries dataset API command: `kaggle competitions download -c commonlit-evaluate-student-summaries`
     - Natural Language Processing with Disaster Tweets dataset API command: `kaggle competitions download -c nlp-getting-started`
-- We recommend to create `data` folder and put all datasets there. So you might have next structure
+- We recommend to create `data` folder in the course root directory and put all datasets there. So you might have next structure
 
 ```
 data/
@@ -76,6 +76,8 @@ data/
         test.csv
         ...
     ...
+Lecture_1/
+...
 ```
 
 ## How to use Kaggle datasets
