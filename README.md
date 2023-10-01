@@ -21,6 +21,11 @@ conda env create -f environment.yaml
 
 # Start Jupyter
 
+Activate your newly created environment
+```bash
+conda activate iasa_nlp_env
+```
+
 You may use any port 
 ```bash
 jupyter lab --port 7766
@@ -62,7 +67,7 @@ jupyter lab --port 7766
 - For most of lectures you will need datasets from Kaggle. [Prepare in advance](#how-to-use-kaggle-datasets)
     - CommonLit - Evaluate Student Summaries dataset API command: `kaggle competitions download -c commonlit-evaluate-student-summaries`
     - Natural Language Processing with Disaster Tweets dataset API command: `kaggle competitions download -c nlp-getting-started`
-- We recommend to create `data` folder and put all datasets there. So you might have next structure
+- We recommend to create `data` folder in the course root directory and put all datasets there. So you might have next structure
 
 ```
 data/
@@ -71,11 +76,13 @@ data/
         test.csv
         ...
     ...
+Lecture_1/
+...
 ```
 
 ## How to use Kaggle datasets
 
-1. Create Kaggle account 
 1. Create [Kaggle](https://www.kaggle.com/) account
 2. Proceed [with Installation & Authentication](https://www.kaggle.com/docs/api#getting-started-installation-&-authentication)
-3. Download dataset with API command 
+3. Don't forget to join a competition and accept its rules on a Kaggle website.
+4. Download dataset with API command 
