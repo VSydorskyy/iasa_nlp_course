@@ -29,3 +29,4 @@ torchtext==0.14.1
 ydata-profiling==4.5.1
 ipywidgets==7.7.2
 jupyterlab-widgets==1.1.1
+fastparquet==2023.8.0
