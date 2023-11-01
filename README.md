@@ -38,12 +38,7 @@ jupyter lab --port 7766
 3. [x] Основні метрики в NLP (обробка природніх мов). Побудова оцінки підходів і моделей в NLP - валідація. - Anton
 4. [x] Підходи з використанням архітектур RNN/GRU/LSTM. - Volodymyr
 5. [x] Підходи з використанням архітектури Transformer. - Anton  
-6. [ ] Генеративні задачі: машинний переклад, умовна та безумовна текстова генерація, розгляд GPT архітектури - Vladyslav
-    - Task Exploration 
-    - Theoretic background (GPT)
-    - Train small GPT
-    - GPT2 to GPT3 change. Model is bigger that dataset. GPT 3.5 with RL  
-    - Summarization and Translation: T5 or Bart
+6. [x] Генеративні задачі: машинний переклад, сумаризація тексту, умовна та безумовна текстова генерація, розгляд GPT архітектури - Vladyslav
 7. [ ] Задача кластеризації. Задача моделювання тем. - Volodymyr
 8. [ ] MLOps - розгортання моделей. - Anton 
 # Use Kaggle or Colab for computations
