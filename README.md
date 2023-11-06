@@ -10,6 +10,21 @@
 
 ## Setup environment 
 
+### Poetry (Recommended)
+
+1. Install Poetry using [Poetry full guide](https://python-poetry.org/docs/#installation).
+    - Important: Check if it is working using `poetry --version`
+2. Run command to keep your `.venv` folder right in your project: `poetry config virtualenvs.in-project true`
+3. `poetry shell`
+    - Important: If you have `conda` and 2 environments were activated: `conda deactivate`
+4. `poetry install --with dev`
+
+In order to activate environment on the next use. Important: you should be inside your project
+
+`poetry shell`
+
+### Conda
+
 If you have CUDA
 ```bash
 conda env create -f environment_gpu.yaml
@@ -19,12 +34,13 @@ Otherwise
 conda env create -f environment.yaml
 ```
 
-# Start Jupyter
+In order to activate environment 
 
-Activate your newly created environment
 ```bash
 conda activate iasa_nlp_env
 ```
+
+# Start Jupyter
 
 You may use any port 
 ```bash
@@ -39,7 +55,7 @@ jupyter lab --port 7766
 4. [x] Підходи з використанням архітектур RNN/GRU/LSTM. - Volodymyr
 5. [x] Підходи з використанням архітектури Transformer. - Anton  
 6. [x] Генеративні задачі: машинний переклад, сумаризація тексту, умовна та безумовна текстова генерація, розгляд GPT архітектури - Vladyslav
-7. [ ] Задача кластеризації. Задача моделювання тем. - Volodymyr
+7. [x] Задача кластеризації. Задача моделювання тем. - Volodymyr
 8. [ ] MLOps - розгортання моделей. - Anton 
 # Use Kaggle or Colab for computations
 
@@ -63,6 +79,7 @@ jupyter lab --port 7766
     - CommonLit - Evaluate Student Summaries dataset API command: `kaggle competitions download -c commonlit-evaluate-student-summaries`
     - Natural Language Processing with Disaster Tweets dataset API command: `kaggle competitions download -c nlp-getting-started`
     - Mantis Analytics Location Detection dataset: `kaggle datasets download -d vladimirsydor/mantis-analytics-location-detection`
+    - Dataset for Topic Modelling: `https://drive.google.com/drive/folders/1jwh225T0DIEN4A1wMZ8-dVJX-2Tsovqf?usp=sharing`
 - We recommend to create `data` folder in the course root directory and put all datasets there. So you might have next structure
 
 ```
