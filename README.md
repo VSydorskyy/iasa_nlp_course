@@ -17,7 +17,7 @@
 2. Run command to keep your `.venv` folder right in your project: `poetry config virtualenvs.in-project true`
 3. `poetry shell`
     - Important: If you have `conda` and 2 environments were activated: `conda deactivate`
-4. `poetry install`
+4. `poetry install --no-root`
 
 In order to activate environment on the next use. Important: you should be inside your project
 
