@@ -1,0 +1,18 @@
+version: "3.0"
+services:
+  transformer-model:
+    image: transformer-service:latest
+    container_name: transformer-service-latest
+    build:
+      context: .
+    ports:
+      - 8088:80
+    environment:
+      - LOG_LEVEL=info
+      - TIMEOUT=1200
+      - MODULE_NAME=service.app
+      - MODEL_NAME=distilbert-base-uncased-finetuned-sst-2-english
+      - MAX_WORKERS=1 #or you can set WORKERS_PER_CORE
+    logging:
+      driver: json-file
+    command: /start.sh #use /start-reload.sh in debug
