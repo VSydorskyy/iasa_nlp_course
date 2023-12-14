@@ -117,9 +117,16 @@ Lecture_1/
 3. Don't forget to join a competition and accept its rules on a Kaggle website.
 4. Download dataset with API command 
 
+# Feedback [Only For Lectors]
+
+## 2023
+
+Raw table : https://docs.google.com/spreadsheets/d/1P38uhwkMQo0cd1avywbnVJ-dwxiswHpAcIpEHrlv1PY/edit?usp=sharing
+
 # TODO
 
 - [ ] Process recordings and upload them to YouTube
+- [ ] Process 2023 Feedback 
 
 # Citation
 
